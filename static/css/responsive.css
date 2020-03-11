@@ -3,6 +3,10 @@
     .float {
         position: relative;
     }
+    .title-1{
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
     .wrap {
         font-size: 14px;
     }
@@ -50,9 +54,6 @@
         display: block !important;
     }.decor {
         height: 50px;
-    }
-    .title-1{
-        display: none;
     }
     .btn-home{
         margin-bottom: 16px;
@@ -233,8 +234,5 @@
         bottom: 0;
         object-fit: cover;
         object-position: center;
-    }
-    .content{
-        padding-top: 10vh;
     }
 }

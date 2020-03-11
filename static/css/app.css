@@ -3,7 +3,12 @@
    margin-bottom: 0;
  }
 
- 
+ .navbar-light .navbar-toggler-icon {
+  background-image: url(..//images/toggel.svg);
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
  .navbar-light{
    background-color: #6060D0;
  }
