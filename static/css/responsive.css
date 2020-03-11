@@ -165,39 +165,7 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1400px) {
-    .img-1{
-        height: 200px;
-        width: 24%;
-        right: 16%;
-        margin-right: 3%;
-        bottom: 0;
-        object-fit: cover;
-        object-position: center;
-    }
-    .img-2{
-        top: 11%;
-        right: 0;
-        width: 26%;
-        height: 24%;
-        object-fit: cover;
-        object-position: center;
-    }
-    .img-3{
-        top: 42%;
-        right: 0;
-        height: 24%;
-        width: 20%;
-        object-fit: cover;
-        object-position: center;
-    }
-    .img-4{
-        height: 200px;
-        right: 0;
-        width: 16%;
-        bottom: 0;
-        object-fit: cover;
-        object-position: center;
-    }
+   
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
