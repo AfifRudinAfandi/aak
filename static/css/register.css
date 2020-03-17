@@ -2,22 +2,12 @@
     padding-top: 20px;
 }
 .title-1{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-}
-.title-2{
-    font-style: normal;
     font-weight: bold;
     font-size: 38px;
     line-height: 46px;
     letter-spacing: 0.02em;
-    color: #6060D0;
-    max-width: 545px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
 }
 .title-desc{
     font-style: normal;
@@ -29,13 +19,13 @@
     max-width: 554px;
 }
 
-.btn-home{
+.btn-daftar{
     width: 224px;
     padding: 14px 26px;
-    background: #f3f3f4;
-    color: #1bb394;
+    background: #1bb394;
+    color: #f3f3f4;
 }
-.btn-home:hover{
+.btn-daftar:hover{
     box-shadow: rgba(27, 179, 149, 0.2) 0px 4px 8px 0px, rgba(27, 179, 149, 0.23) 0px 6px 20px 0px;
     color: rgb(255, 255, 255) !important;
     outline: 0px !important;
@@ -80,4 +70,18 @@
 }
 .wrapper-button .btn-home:nth-child(1){
     margin-right: 20px;
+}
+
+
+.register-form-group .form-group .form-control{
+    background: #f3f3f4;
+    border: none;
+    height: 52px;
+    width: 70%;
+}
+.password{
+    position: relative;
+}
+.catatan{
+    margin-bottom: 120px;
 }

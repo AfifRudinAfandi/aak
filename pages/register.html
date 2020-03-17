@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Font Awesome Icon -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+    <!-- bXSlider CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!-- Custom Css -->
+    <link href="../static/css/app.css" rel="stylesheet" />
+    <link href="../static/css/register.css" rel="stylesheet" />
+    <link href="../static/css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../static/css/jquery.passwordstrength.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../static/images/logo.png" width="38px" alt="">
+                <p class="wrap"> PMB <span>AAK Delima Husada</span></p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pengumuman</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Daftar Ulang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link login" href="#">Login <i class="fa fa-sign-in"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="decor">
+        <div class="container ct-t">
+            <h3 class="title-1 lg-title">Registrasi</h3>
+        </div>
+    </div>
+    <div class="image-float">
+        <img class="float img-1" src="../static/images/img1.jpg" alt="">
+        <img class="float img-2" src="../static/images/img4.jpg" alt="">
+    </div>
+    <section class="content">
+        <div class="container">
+            <h3 class="title-1 sm-title">Registrasi</h3>
+            <p class="title-desc mb-4">Isi form berikut dengan menggunakan data yang valid (Benar).</p>
+            <div class="col-md-6 pl-0 pr-0">
+                <form method="POST" class="register-form-group mb-4" action=""><input type="hidden" name="_token">
+                    <div class="form-group name">
+                        <input class="form-control" type="text" name="full_name" placeholder="Nama Lengkap" value="">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" aria-describedby="emailHelp" placeholder="Alamat E-Mail" value="">
+                    </div>
+                    <div class="form-group password">
+                        <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password_confirmation" placeholder="Konfirmasi Password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <select name="prodi" id="prodi" class="form-control">
+                            <option value="0">-- Pilih Prodi --</option>
+                            <option value="7">Ilmu Keperawatan</option>
+                            <option value="12">Profesi Ners</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select name="kelas" id="kelas" class="form-control">
+                            <option>-- Pilih Kelas --</option>
+                        </select>
+                    </div> 
+                    <button type="submit" class="btn btn-light btn-daftar mt-3">Submit</button>
+                </form>
+                <div class="catatan"><strong>Catatan :</strong>
+                    <p>Pastikan Anda memiliki akun email pribadi yang aktif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bottom">
+        <div class="container">
+            <div class="wrapper-row">
+                <p>Jl. Arif Rahman Hakim 2B, Gresik</p>
+                <i class="fa fa-circle ml-3 mr-3"></i>
+                <p>Telp.(031) 3981918, 3978628</p>
+                <i class="fa fa-circle ml-3 mr-3"></i>
+                <p class="copy-right mb-0">Copyright © 2019 Universitas Gresik</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- bxSlider Plugin -->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src='../static/js/app.js' type="text/javascript"></script>
+    <script src="../static/js/jquery.passwordstrength.js"></script>
+
+    <script>
+    $(function(){
+        $('input#password').passwordstrength({
+        'minlength': 6, // Minimum length of password
+        'number'   : true, // Password requires at least one number
+        'capital'  : true, // Password requires at least one uppercase letter
+        'special'  : true, // Password requires at least one special character
+        'labels'   : {
+        'general'   : 'The password must have :',
+        'minlength' : 'At leaset {{minlength}} characters',
+        'number': 'At least one number',
+        'capital'   : 'At least one uppercase letter',
+        'special'   : 'At least one special character'
+        }
+        });
+    });
+      </script>
+</body>
+
+</html>

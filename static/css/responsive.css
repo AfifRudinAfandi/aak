@@ -69,6 +69,12 @@
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+    .register-form-group .form-group .form-control{
+        width: 100%;
+    }
+    .register-form-group{
+        text-align: center;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
