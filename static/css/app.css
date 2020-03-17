@@ -50,6 +50,7 @@
    flex-direction: row;
    flex-wrap: wrap;
    align-items: center;
+   justify-content: center;
  }
  .wrapper-row p,
  .copy-right,
@@ -62,7 +63,10 @@
  .login{
    background-color: #CECEFF;
    color: #6060D0 !important;
-   padding-left: 50px;
-   padding-right: 50px;
+   padding-left: 18px !important;
+   padding-right: 18px !important;
    border-radius: 20px;
+ }
+ .login:hover{
+   background-color: #ebebff;
  }
