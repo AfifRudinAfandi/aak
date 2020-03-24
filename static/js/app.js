@@ -53,4 +53,5 @@ var windowsize = $(window).width();
       slideWidth: 350,
       mySlides: 1
     });
-	}
+  }
+  

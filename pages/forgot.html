@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Verifikasi</title>
+    <title>Forgot</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -19,54 +19,28 @@
 
     <!-- Custom Css -->
     <link href="../static/css/app.css" rel="stylesheet" />
-    <link href="../static/css/verification.css" rel="stylesheet" />
+    <link href="../static/css/forgot.css" rel="stylesheet" />
     <link href="../static/css/responsive.css" rel="stylesheet" />
 </head>
 
 <body>
 
-
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="../static/images/logo.png" width="38px" alt="">
-                <p class="wrap"> PMB <span>AAK Delima Husada</span></p>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-lg-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pengumuman</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Daftar Ulang</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link login" href="#">Login <i class="fa fa-sign-in"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <section class="content">
         <div class="container">
             <div class="wrapper-content">
-                <img src="../static/images/check-icon.svg" class="ic-success mb-4" alt="">
-                <h5 class="title-selamat">Selamat, Pendaftaran anda berhasil !</h5>
-                <ol class="list-flow">
-                    <li>
-                        Cek email masuk/spam anda untuk melakukan pembayaran biaya pendaftaran.
-                    </li>
-                    <li>
-                        Apabila telah melakukan pembayaran silahkan login dan melengkapi form pendaftaran.
-                    </li>
-                </ol>
-                <a href="#" class="btn btn-light btn-login mb-5">Login</a>
+                <img class="logo" src="../static/images/logo.png" alt="">
+                <h5 class="title-1">Penerimaan Mahasiswa Baru</h5>
+                <h5 class="title-2">Akademi Analisis Kesehatan Delima Husada</h5>
+                <p class="title-3">Masukkan email terdaftar ! Link lupa password akan di kirim ke email anda.</p>
+                <form class="col-md-4">
+                    <div class="wrapper-input mb-4">
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control"  aria-describedby="emailHelp" placeholder="Email address" value="">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-light btn-login mb-4">Submit</button>
+                    <p class="daftar">Sudah terdaftar? <a href="login.html">Login disini</a></p>
+                </form>
             </div>
         </div>
     </section>
@@ -82,6 +56,9 @@
 
         </div>
     </footer>
+
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -94,6 +71,7 @@
     <!-- bxSlider Plugin -->
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src='../static/js/app.js' type="text/javascript"></script>
+
 </body>
 
 </html>

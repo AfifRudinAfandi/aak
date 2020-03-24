@@ -63,7 +63,7 @@
     .copy-right{
         text-align: center;
     }
-    .login{
+    .navbar-light .login{
         background-color: transparent;
         color: #FFFFFF !important;
         padding-left: 0 !important;
@@ -75,6 +75,174 @@
     .register-form-group{
         text-align: center;
     }
+    .navbar-white .login{
+        background-color: transparent;
+        color: #6060D0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+
+
+    /* PAGE VERIF */
+    .ic-success{
+        width: 80px;
+    }
+    .title-selamat{
+        text-align: center;
+    }
+    .list-flow{
+        font-size: 15px;
+    }
+
+    /* DASHBOARD */
+    .dropdown-acount{
+        position: absolute !important;
+    }
+    .sub-nav .sub-nav-collapse {
+        align-items: center;
+        display: flex;
+      }
+      .outer-nav{
+          display: flex;
+          flex-direction: column;
+      }
+      .bg-ic{
+          margin-bottom: 8px;
+      }
+      .sub-nav .sub-nav-collapse .navbar-nav p {
+        padding-left: 0;
+    }
+      .sub-nav .sub-nav-collapse .navbar-nav {
+        flex-direction: row;
+      }
+    
+      .sub-nav .sub-nav-collapse .navbar-nav p {
+        font-size: 10px;
+      }
+    
+      .sub-nav .sub-nav-collapse .navbar-nav p #pembayaran {
+        padding: 7.8px 9px !important;
+        margin-right: 0;
+      }
+    
+      .sub-nav .sub-nav-collapse .navbar-nav p #informasi {
+        padding: 6.3px 14px !important;
+        font-size: 12px;
+      }
+    
+      .dashboard-user .nav-pills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .dashboard-user .tab-content .data-calon-mhs .row .left .card .card-body {
+        padding: 20px;
+      }
+    
+      .dashboard-user .tab-content .data-calon-mhs .row .left .card .card-body .form-group .row-form .col-md-6 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    
+      .dashboard-user .tab-content .data-calon-mhs .row .left .card .card-body label {
+        width: 100%;
+      }
+    
+      .form-group {
+        margin-bottom: 0;
+      }
+    
+      .dashboard-row {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    
+      .dashboard-right {
+        margin-bottom: 20px;
+      }
+      .radio-button .custom-radio label{
+          margin: 0 !important;
+      }
+    
+      .text-left {
+        text-align: left !important;
+        font-size: 14px;
+      }
+    
+      .dashboard-user .tab-content .data-calon-mhs .row .right .card .card-body {
+        padding: 20px;
+        margin-top: 20px;
+      }
+    
+      .dashboard-user .tab-content .data-calon-mhs .row .left .card .card-body .form-control {
+        margin: 0 !important;
+      }
+
+    .row-form .col-md-6{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .dashboard-user .tab-content .data-orang-tua .row .left .card .card-body {
+        padding: 20px !important;
+    }
+
+
+    .dashboard-user .informasi .row .left .button-group .btn {
+        border-color: #f5f5f5;
+        text-align: left;
+        padding: 18px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .button-group-9 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-group-9 a {
+        margin-bottom: 12px;
+    }
+
+
+    .dashboard-user .informasi .row .left .button-group .more a {
+        right: 15px;
+    }
+    .pengumuman .button-group .more a {
+        right: 15px;
+        left: auto;
+    }
+    .pengumuman .button-group .btn {
+        width: 100%;
+    }
+    .dashboard-user .nav-pills .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrapper-time{
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    .wrapper-spar {
+        width: 10%;
+    }
+    .wrapper-spar:nth-child(4){
+        display: none;
+    }
+    .wrapper-time h1 {
+        font-size: 48px;
+        padding: 16px;
+    }
+    .img-not-found{
+        max-width: 70%;
+    }
+    .ct-not-found{
+        min-height: 80vh;
+        padding-top: 100px;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
